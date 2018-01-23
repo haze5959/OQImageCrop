@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE4211C02016C2A90075F814 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4211BF2016C2A90075F814 /* AppDelegate.m */; };
+		CE4211C32016C2A90075F814 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4211C22016C2A90075F814 /* ViewController.m */; };
+		CE4211C62016C2A90075F814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4211C42016C2A90075F814 /* Main.storyboard */; };
+		CE4211C82016C2A90075F814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4211C72016C2A90075F814 /* Assets.xcassets */; };
+		CE4211CB2016C2A90075F814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4211C92016C2A90075F814 /* LaunchScreen.storyboard */; };
+		CE4211CE2016C2A90075F814 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4211CD2016C2A90075F814 /* main.m */; };
+		CE4211EB2016C3320075F814 /* rotate@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4211DB2016C3320075F814 /* rotate@3x.png */; };
+		CE4211EC2016C3320075F814 /* rotate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4211DD2016C3320075F814 /* rotate@2x.png */; };
+		CE4211ED2016C3320075F814 /* OQCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4211DF2016C3320075F814 /* OQCropView.m */; };
+		CE4211EE2016C3320075F814 /* OQCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4211E12016C3320075F814 /* OQCropViewController.m */; };
+		CE4211EF2016C3320075F814 /* OQCropViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4211E22016C3320075F814 /* OQCropViewController.xib */; };
+		CE4211F22016C3320075F814 /* UIImage+OQCrop.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4211E82016C3320075F814 /* UIImage+OQCrop.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE4211BB2016C2A90075F814 /* OQImageCrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OQImageCrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4211BE2016C2A90075F814 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE4211BF2016C2A90075F814 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE4211C12016C2A90075F814 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE4211C22016C2A90075F814 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE4211C52016C2A90075F814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE4211C72016C2A90075F814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE4211CA2016C2A90075F814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE4211CC2016C2A90075F814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4211CD2016C2A90075F814 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE4211DB2016C3320075F814 /* rotate@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rotate@3x.png"; sourceTree = "<group>"; };
+		CE4211DD2016C3320075F814 /* rotate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rotate@2x.png"; sourceTree = "<group>"; };
+		CE4211DE2016C3320075F814 /* OQCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OQCropView.h; sourceTree = "<group>"; };
+		CE4211DF2016C3320075F814 /* OQCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OQCropView.m; sourceTree = "<group>"; };
+		CE4211E02016C3320075F814 /* OQCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OQCropViewController.h; sourceTree = "<group>"; };
+		CE4211E12016C3320075F814 /* OQCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OQCropViewController.m; sourceTree = "<group>"; };
+		CE4211E22016C3320075F814 /* OQCropViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OQCropViewController.xib; sourceTree = "<group>"; };
+		CE4211E72016C3320075F814 /* UIImage+OQCrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OQCrop.h"; sourceTree = "<group>"; };
+		CE4211E82016C3320075F814 /* UIImage+OQCrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+OQCrop.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE4211B82016C2A90075F814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE4211B22016C2A90075F814 = {
+			isa = PBXGroup;
+			children = (
+				CE4211BD2016C2A90075F814 /* OQImageCrop */,
+				CE4211BC2016C2A90075F814 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE4211BC2016C2A90075F814 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE4211BB2016C2A90075F814 /* OQImageCrop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE4211BD2016C2A90075F814 /* OQImageCrop */ = {
+			isa = PBXGroup;
+			children = (
+				CE4211D42016C3320075F814 /* ImageCrop */,
+				CE4211BE2016C2A90075F814 /* AppDelegate.h */,
+				CE4211BF2016C2A90075F814 /* AppDelegate.m */,
+				CE4211C12016C2A90075F814 /* ViewController.h */,
+				CE4211C22016C2A90075F814 /* ViewController.m */,
+				CE4211C42016C2A90075F814 /* Main.storyboard */,
+				CE4211C72016C2A90075F814 /* Assets.xcassets */,
+				CE4211C92016C2A90075F814 /* LaunchScreen.storyboard */,
+				CE4211CC2016C2A90075F814 /* Info.plist */,
+				CE4211CD2016C2A90075F814 /* main.m */,
+			);
+			path = OQImageCrop;
+			sourceTree = "<group>";
+		};
+		CE4211D42016C3320075F814 /* ImageCrop */ = {
+			isa = PBXGroup;
+			children = (
+				CE4211D92016C3320075F814 /* images */,
+				CE4211DE2016C3320075F814 /* OQCropView.h */,
+				CE4211DF2016C3320075F814 /* OQCropView.m */,
+				CE4211E02016C3320075F814 /* OQCropViewController.h */,
+				CE4211E12016C3320075F814 /* OQCropViewController.m */,
+				CE4211E22016C3320075F814 /* OQCropViewController.xib */,
+				CE4211E72016C3320075F814 /* UIImage+OQCrop.h */,
+				CE4211E82016C3320075F814 /* UIImage+OQCrop.m */,
+			);
+			path = ImageCrop;
+			sourceTree = "<group>";
+		};
+		CE4211D92016C3320075F814 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CE4211DA2016C3320075F814 /* iphone_6plus */,
+				CE4211DC2016C3320075F814 /* iphone_basic */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		CE4211DA2016C3320075F814 /* iphone_6plus */ = {
+			isa = PBXGroup;
+			children = (
+				CE4211DB2016C3320075F814 /* rotate@3x.png */,
+			);
+			path = iphone_6plus;
+			sourceTree = "<group>";
+		};
+		CE4211DC2016C3320075F814 /* iphone_basic */ = {
+			isa = PBXGroup;
+			children = (
+				CE4211DD2016C3320075F814 /* rotate@2x.png */,
+			);
+			path = iphone_basic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE4211BA2016C2A90075F814 /* OQImageCrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE4211D12016C2A90075F814 /* Build configuration list for PBXNativeTarget "OQImageCrop" */;
+			buildPhases = (
+				CE4211B72016C2A90075F814 /* Sources */,
+				CE4211B82016C2A90075F814 /* Frameworks */,
+				CE4211B92016C2A90075F814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OQImageCrop;
+			productName = OQImageCrop;
+			productReference = CE4211BB2016C2A90075F814 /* OQImageCrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE4211B32016C2A90075F814 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "권오규";
+				TargetAttributes = {
+					CE4211BA2016C2A90075F814 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = CE4211B62016C2A90075F814 /* Build configuration list for PBXProject "OQImageCrop" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE4211B22016C2A90075F814;
+			productRefGroup = CE4211BC2016C2A90075F814 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE4211BA2016C2A90075F814 /* OQImageCrop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE4211B92016C2A90075F814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4211CB2016C2A90075F814 /* LaunchScreen.storyboard in Resources */,
+				CE4211C82016C2A90075F814 /* Assets.xcassets in Resources */,
+				CE4211EF2016C3320075F814 /* OQCropViewController.xib in Resources */,
+				CE4211EC2016C3320075F814 /* rotate@2x.png in Resources */,
+				CE4211EB2016C3320075F814 /* rotate@3x.png in Resources */,
+				CE4211C62016C2A90075F814 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE4211B72016C2A90075F814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4211C32016C2A90075F814 /* ViewController.m in Sources */,
+				CE4211ED2016C3320075F814 /* OQCropView.m in Sources */,
+				CE4211CE2016C2A90075F814 /* main.m in Sources */,
+				CE4211C02016C2A90075F814 /* AppDelegate.m in Sources */,
+				CE4211EE2016C3320075F814 /* OQCropViewController.m in Sources */,
+				CE4211F22016C3320075F814 /* UIImage+OQCrop.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE4211C42016C2A90075F814 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE4211C52016C2A90075F814 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE4211C92016C2A90075F814 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE4211CA2016C2A90075F814 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE4211CF2016C2A90075F814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE4211D02016C2A90075F814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE4211D22016C2A90075F814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = OQImageCrop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OQ.OQImageCrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE4211D32016C2A90075F814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = OQImageCrop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OQ.OQImageCrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE4211B62016C2A90075F814 /* Build configuration list for PBXProject "OQImageCrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4211CF2016C2A90075F814 /* Debug */,
+				CE4211D02016C2A90075F814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE4211D12016C2A90075F814 /* Build configuration list for PBXNativeTarget "OQImageCrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4211D22016C2A90075F814 /* Debug */,
+				CE4211D32016C2A90075F814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE4211B32016C2A90075F814 /* Project object */;
+}
