@@ -9,12 +9,12 @@
 
 # Usage
 * adjust crop ratio
-```
+```swift
 self.cropAspectRatio = 3.0f / 2.0f;   //3 : 2 ratio
 ```
 
 * block-coding completion
-```
+```swift
 OQCropViewController *controller = [OQCropViewController viewControllerWithImage:image cropAspectRatio:self.cropAspectRatio yesBlock:^(UIImage *resultImage) {
             //Image Crop Done!
 
